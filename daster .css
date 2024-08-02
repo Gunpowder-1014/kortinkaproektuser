@@ -1,0 +1,552 @@
+ *{
+    padding: 0;
+    margin: 0;
+} 
+ .header{
+
+    width:100% ;
+    height:5vh ;
+    display: flex;
+    flex-direction: row;
+}
+.textMenu{
+ width: 20%;
+ display: grid;
+ grid-template-rows:80% 20%;
+ font-family: rit;
+ font-size: 13pt;
+}
+.logo img{
+ width:100%;
+ height: 100%;
+}
+@font-face {
+    font-family:rit;
+    src: url("ШРИФТ.ttf");
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.menu{
+    width: 80% ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center    ;
+    align-items: center;
+    font-size: larger;
+}
+.menu a{
+    margin-left: 300px ;
+}
+
+.banner{
+    width: 100%; 
+    height: 70vh;
+}
+.banner img{
+    width: 100%;
+    height: 100%;
+}
+
+.info{
+    width: 94%;
+    margin-left: 3%;
+    margin-top:  40px;
+    display: grid;
+    grid-template-columns:70% 30% ;
+}
+
+.infoTesting{
+    width: 95%;
+}
+
+.infoTesting p{
+ font-size: 14pt;
+  margin-top: 32px ;
+  text-align: justify;
+}
+
+.moreInfo{
+    display: flex;
+    justify-content: baseline;
+    align-items: baseline;
+}
+
+.vacancies{
+    display: block;
+    justify-content: baseline;
+    align-items: baseline;
+}
+.infoTesting h2{
+    font-size: 14pt;
+    margin-top: 32px;
+    text-align: justify;
+}
+.list{
+    font-size: 14pt;
+    margin-top: 32px;
+    text-align: center;
+}
+.vacancies{
+color:black;
+ border-color: black ;
+ border: 10px solid rgb(72, 255, 0);
+    border-radius: 20px;
+    padding: 5%;
+    width: 70%;
+    background-color: antiquewhite;
+
+}
+.footer{
+    width:100%;
+    border-top: 2px solid  rgb(0, 255, 34);
+    margin-top: 40px;
+    padding-top: 40px ;
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+}
+.review{
+display: grid;
+grid-template-rows: 15% 60% 10%;
+
+}
+.pictureReview{
+width: 80%;
+margin-left: 10%;
+display: flex;
+justify-content: space-between;
+
+}
+.pictureReview img{
+    width: 80px;
+    height: 80px;
+}
+
+.review p{
+color: black;
+font-size: 18px;
+font-weight: 600;
+text-align: center;
+
+}
+.textReview{
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.pictureReview img:hover{
+    cursor: pointer;
+     filter: contrast(50%);
+     transition: 1s;
+}
+.menu a p{
+border-radius: 20px;
+padding: 10px;
+
+
+}
+ .menu a p:hover{
+ background-color: rgb(111, 228, 120);
+box-shadow:  1px 1px 1px 1px rgb(0, 0, 0);
+ }
+ .developer{
+     width: 50%;
+margin: left 25%;  ;
+line-height: 170%;
+
+ }
+.social{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10%;
+
+}
+.social div{
+
+width: 50px;
+height: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.social img{
+  width: 50px;
+  height: 40px;
+  margin-left:  30px;
+
+}
+.social img:hover{
+    filter: contrast(150%);
+     width: 55px;
+     height: 55px;
+     transition: 1s;
+}
+@keyframes animationText{
+    0%{
+font-weight: 100;
+color: black;
+}
+50%{
+    font-weight: 800;
+color: rgb(153, 0, 255);
+}
+100%{
+font-weight: 100;
+color: black;
+}
+}
+#textLogo{
+animation: animationText 4s infinite;
+
+
+}
+.current{
+margin-top: 100px;
+height: 30vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.currentContainer{
+    width: 50%;
+    background:rgb(175, 224, 182) ;
+    border-radius: px;
+    height: 100%;
+    padding: 2%;
+    font-size: 14pt;
+    line-height: 150%;
+}
+
+.main_news{
+    width: 94%;
+    margin-left: 3%;
+    margin-top:  0px;
+display: flex;
+    grid-template-columns: 15% 70% 15% ;
+}
+.grid{
+ height: 10vh;  
+ display: grid;
+ grid-template-rows: 1fr 1fr;
+ margin-top: 40px;
+}
+.newCard{
+    width:90%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-between;
+}.textCard{
+    width:70%;
+    font-size: 18px;
+    line-height: 160%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.textCard p{
+   margin-bottom: 10px;
+}
+.imgCard{
+   width: 20%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.imgCard img{
+   width: 100%;
+
+}
+.textCard{
+    width: 50%;
+    background:rgb(150, 235, 161) ;
+    border-radius: px;
+    height: 100%;
+    padding: 2%;
+    font-size: 14pt;
+    line-height: 150%;
+}
+.main_game_findBox{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 40px;
+}
+.fieldGame{
+width: 60%;
+height: 120vh;
+background-color: rgb(142, 224, 140);
+border-radius: 20px;
+display: grid;
+grid-template-rows: 30% 50% 20%;
+
+}
+.textGame{
+
+    width: 50%;
+    margin-left: 25%;
+    background-color: rgb(133, 247, 148) ;
+    font-size: 16px;
+    border-radius: 20px;
+    line-height: 150%;
+    text-align: center;
+    margin-top: 2%;
+    padding-top: 2%;
+
+}
+.fieldBox{
+display: flex;
+justify-content: space-around;
+align-items: center;
+
+}
+.fieldBox img{
+ width: 16%;
+
+}
+.fieldBox img:hover{
+ cursor: cell;
+ box-shadow: 0px 0px 5px 5px #9ee7a7;
+ border-radius: 20px;
+}
+.restartButton button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.restartButton button{
+width: 20%;
+padding: 1%;
+font-size: 16pt;
+background-color: #a6fcb4;
+border-radius: 16px;
+}
+
+#restartButton{
+
+    display: flex;
+}
+#textWinner{
+display: none;
+
+}
+#textLooser{
+    display: none;
+
+
+}
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+  .turCard{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ align-items: center;
+
+  }
+ .bugBoxes{
+background-image: url(opo/Fon.webp);
+    width: 50%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2%;
+ }
+ .turBox button{
+    padding: 10%;
+    font-size: 36pt;
+    background-image: url("opo/2020World___Turkey_Fountain_at_the_mosque_in_Istanbul__Turkey_142596_33.jpg");
+    background-size: 100% 100%;
+    border-radius: 15px;
+    border: 5px solid rgb(190, 253, 193);
+    color: rgb(151, 248, 167);
+    font-weight: 700;
+    text-align: left;
+    
+    
+ }
+ .turGame button:hover{
+    cursor: ("opo");
+ }
+ .turField{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+ }
+ #tur{
+    width: 100%;
+    border-radius: 360px ;
+    padding:  3%;
+ }
+ .bugField button{
+    width: 30%;
+    border-radius: 120px;
+    padding: 3%;
+ }
+ #buggy{
+
+    width: 100%;
+ }
+ 
+    
+#count{
+    font-size: 100pt;
+}
+.turBuster{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}.turBuster div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px rgb(175, 224, 182);
+    border-radius: 20px;
+    width: 16%;
+    height: 50%;
+    padding-right: 2%;
+    font-family: "Number";
+}
+.turBuster div img {
+    width: 50px;
+    height: 50px;
+}
+    
+#testingSetWindow{
+    width: 50%;
+    height: 80%;
+    margin-left: 25%;
+    margin-top:  2%;
+    padding: 2%;
+    border-radius: 20px;
+    border:  1px solid green;
+    box-shadow: 0px 0px 5px 5px rgb(0, 255, 34);
+}
+ 
+#testingSetWindow ::backdrop{
+ background-color: aqua;
+}
+
+.containerTestingWindow{
+  display: grid;
+    grid-template-rows: 10% 10% 80%;
+    text-align: center;
+}
+
+.containerCloseButton{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.containerCloseButton div{
+
+    padding: 5px;
+    border: 1px solid red;
+    font-size: 16px;
+}
+.containerCloseButton div:hover{
+    border: 1px solid red;
+    border-radius: 6px;
+    cursor: pointer;
+    color: brown;
+}
+
+.zag{
+    display: none;
+}
+@media (max-width: 999px){
+    .zag{
+        display: flex;
+        text-align: center;
+        margin-top: 200px;
+    }
+    .header{
+        display: none;
+    }
+    .footer{
+        display: none;
+    }
+    .main_game_findBox{
+        display: none;
+    }
+    .main_news{
+    display: none;
+    }
+    .main_home{
+        display: none;
+    }
+}
+
+.oneCard{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 300px;
+    height:300px;
+}
+.oneCard{
+    width: 40%;
+    display: grid;
+    grid-template-rows: 80% 20%;
+    margin-top: 40px;
+    border: 1px solid rgb(0, 255, 34);
+    border-radius: 20px;
+    background-color: mediumseagreen;
+}
+.topPath{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.topPath div{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.topPath div img{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 20px;
+}
+
+.bottomPath{
+    display: grid;
+    grid-template-columns: 30% 50%;
+    gap: 20%;
+    border-top: 1px solid red;
+    
+}
+.bottomPath div{
+       display: flex; 
+       align-items: center;
+       justify-content: center;
+    }
+    .bottomPath div:first-child{
+           border-right: 1px solid red;
+    }
+    .bottomPath div:last-child:hover{
+        
+    }

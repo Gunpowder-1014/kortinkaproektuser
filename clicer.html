@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>telegram</title>
+    <link rel="stylesheet" href="daster .css">
+</head>
+<body>
+    <div class="header">
+        <div  class="logo">
+            <img src="турцыя.png" >
+            <p id="textLogo">  </p>
+        </div>
+        <div class="menu">
+            <a href="index.html"><p class="textmenu"> ГЛАВНАЯ  </p></a>
+            <a href="2hews.html"><p class="textmenu"> НОВОСТИ  </p></a>
+            <a href="play.html"><p class="textmenu"> GAME      </p></a>
+            <a href="clicer.html"><p class="textmenu"> GAME     </p></a>
+            
+             
+        </div>
+    </div>
+    <div class="main_game_findBox">
+    <div class="fieldGame">
+        <div class="turCard">
+            <div class="turBoxes">
+                <div class="turBox">
+                    <button onclick="openSetWindow()"> ЕДА </button>
+                </div>
+                <dialog id="testingSetWindow">
+                         <div class="containerTestingWindow">
+                             <div class="containerCloseButton">
+                                 <div onclick="closeSetWindow()"><p></p></div>
+                              </div>
+                                <h2>Необходимые инструменты коту на проритание </h2>
+                    <div class="gridCard">     
+                         <div class="oneCard">
+                           <div class="topPath">
+                               <div>
+                                <img src="opo/photo_3_2023-09-08_11-30-34_893.jpg" >
+                               </div>
+                               <div>
+                                 <h1>УЛЬТРО ГИТАРИСТ </h1>
+                                 <h1>ДОХОД В МИНУТУ  </h1>
+                                 <H1><span id="countCardId0">30</span>CAT </H1>
+                               </div>
+                           </div> 
+                           <div class="bottomPatn">
+                        
+                                  <h1> уровень  <span id="levelCardId0">1</span> </h1>
+                               </div>
+                               <div onclick="buyCard(0)" class="butBuyCard">
+                                 <h1><span id="costCardId0">17</span>cat</h1>
+                               </div>
+                            </div>
+                         </div>
+                        <div class="gridCard">
+                                <div class="oneCard">
+                                  <div class="topPath">
+                                <div>
+                                 <img src="собака_large.jpeg" >
+                                </div>
+                                <div>
+                                  <h1>УЛЬТРО СОБАКА </h1>
+                                  <h1>ДОХОД В МИНУТУ  </h1>
+                                  <H1><span id="countCardId0">50</span>CAT </H1>
+                                </div>
+                            </div> 
+                            <div class="bottomPatn">
+                                <div>
+                               
+                                   <h1> уровень  <span id="levelCardId0">1</span> </h1>
+                                </div>
+                                <div onclick="buyCard(1)" class="butBuyCard">
+                                  <h1><span id="costCardId0">50</span>cat</h1>
+                                </div>
+                            </div>
+                          </div>
+                          <div class="oneCard">
+                            <div class="topPath">
+                                <div>
+                                 <img src="opo/jop.jpg" >
+                                </div>
+                                <div>
+                                  <h1>УЛЬТРО КАРТОШКА </h1>
+                                  <h1>ДОХОД В МИНУТУ  </h1>
+                                  <H1><span id="countCardId0">300</span>CAT </H1>
+                                </div>
+                            </div> 
+                            <div class="bottomPatn">
+                                <div>
+                                   <h1>  <span id="levelCardId0">1</span> </h1>
+                                </div>
+                                <div onclick="buyCard(2)" class="butBuyCard">
+                                  <h1><span id="costCardId0">300</span>cat</h1>
+                                </div>
+                            </div>
+                          </div>
+                    </div>
+                </dialog  id="testingSetWindow">
+
+                <div class="turBox">
+                    <button> ОТДЫХ </button>
+                </div>
+            </div>
+            <div class="turStatistic">
+                <h1>CТАТИСТИКА</h1>
+                <p>ТВОИ ДЕНЮШКИ <span id="countTur">100</span>CAT в минуту </p>
+            </div>
+        </div>
+        <div class="turField">
+             <p id="count">0</p>
+            <button onclick="tapCat()" id="buttonCat"><img id="tur" src="opo/jop.jpg" ></button>
+        </div>
+        <div class="turBuster">
+            <div >
+                <img src="opo/opo.png" >
+                <p><span id="energy">100</span>/100</p>
+            </div>
+            <div onclick="buy()" id="buyPower">
+                <img src="" >
+                <p> <span id="Power">2</span> <span id="costPower">/</span> 10</p>
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="footer">
+     <div class="review"> 
+        <p>ПОЖАЛУЙСТА ОЦЕНИТЕ НАШ САЙТ</p>
+    
+    <div class="pictureReview"> 
+        <img src="opo/все гуд.png" onclick="alert('Спасибо за высокую отметку!')">
+        <img src="opo/пофигист.png"onclick="alert('Спасибо за отметку')">
+        <img src="opo/не всё так плохо.png"onclick="alert('Очень жаль что вам не понравилось ')">
+        <img src="opo/плачет.png"onclick="alert('Пашол вон!!!')">
+    </div>
+    <div class="textReview">
+        <h6>ВСЁ ПРЕКРАСНО</h6>
+        <h6>НИЧЕГО ИНТЕРЕСТНОГО</h6>
+        <h6>ВСЁ ПЛОХА</h6>
+        <h6>ВСЁ УЖАСТНО!!!</h6>
+    </div>
+    </div>
+     
+     
+    <div class="developer">
+     <p>РАЗРАБОТЧИК ЕГОР </p>
+     <p>г.Гомель 2024г</p>
+     <p>  </p>
+    </div>
+
+    <div class="social">
+    
+
+     <a href="t.me/vjazanie_brendovyh_veshey"><img src="opo/телеграм.png"> </a>
+     
+    
+    
+     <a href="https://www.youtube.com/gaming"><img src="opo/YouTube_full-color_icon_(2017).svg.png"></a></div>
+     
+    </div>
+    <div class="zag">
+        <h1>Данная версия сайта не поддерживается вашим устройством.</h1>
+        <h1>перейдите на устройство с большим экраном!</h1>
+        
+   </div>
+    <script src="script1.js"></script>
+
+
+        
+</body>
+</html>
